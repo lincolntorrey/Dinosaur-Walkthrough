@@ -3,58 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dino Page</title>
+    <title>LincolnTorrey</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
 
-<div class="main">
+  <!-- TOP NAV -->
+  <div class="top-bar">
+    <a href="index.html" class="top-link">← Back to Professional Site</a>
+    <a href="#video" class="top-link">Jump to Video</a>
+    <a href="#tableau" class="top-link">Jump to Tableau</a>
+    <a href="app.html" class="top-link">Play the Wordle Game</a>
+  </div>
 
-    
-    <div class="common header">
-        <h1>Dinosaurs are so scary</h1>
-        <h3>You wont believe how scary they are!</h3>
+  <div class="main">
+
+    <!-- HEADER -->
+    <div class="common header" id="top">
+      <h1>Lincoln Torrey</h1>
+      <h3>Business Student • Parking Enforcement Officer • Marketing Experience</h3>
     </div>
 
-    <h2>Dinos have very long teeth as well</h2>
-    <p>Dinosaurs are very old, very big, fat, scaley, bird like</p>
+    <!-- ABOUT ME -->
+    <div class="common">
+      <h2>About Me</h2>
+      <p>
+        I’m a business student at Brigham Young University with experience in city government,
+        marketing, education, and customer service. I’m known for reliability, strong work ethic,
+        and the ability to adapt quickly in fast‑paced environments.
+      </p>
+    </div>
 
-    <ul>
-        <li class="pretty">Teeth</li>
-        <li>Talons</li>
-        <li>Fangs</li>
-        <li>Ridges</li>
-    </ul>
+    <!-- EXPERIENCE (Nested List Requirement) -->
+    <div class="common">
+      <h2>Professional Experience</h2>
 
-    
+      <ol>
+        <li>
+          Parking Enforcement Officer – Provo City
+          <ul>
+            <li>Enforced parking regulations and supported public safety initiatives</li>
+            <li>Resolved conflicts professionally and maintained accurate digital records</li>
+            <li>Worked directly with residents, students, and visitors</li>
+          </ul>
+        </li>
+
+        <li>
+          Parking Enforcement – Utah State University
+          <ul>
+            <li>Patrolled campus and issued citations</li>
+            <li>Helped reduce violations through consistent enforcement</li>
+            <li>Provided clear communication to students and visitors</li>
+          </ul>
+        </li>
+
+        <li>
+          Social Media Coordinator – Czech Republic
+          <ul>
+            <li>Managed a $215,000 annual Facebook advertising budget</li>
+            <li>Optimized campaigns for engagement and ROI</li>
+            <li>Collaborated with international teams</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+
+    <!-- EDUCATION -->
     <div class="common left">
-        <h1>Why are they chasing</h1>
-        <h2>Why are they getting closer</h2>
+      <h2>Education</h2>
+      <p><strong>Brigham Young University</strong> – Business (Pre‑Law)</p>
+      <p><strong>Utah State University</strong> – 3.6 GPA</p>
+      <p><strong>Box Elder High School</strong> – 3.7 GPA</p>
     </div>
 
-    
+    <!-- SKILLS -->
     <div class="common right">
-        <h3>While dinosaurs were ancestrally bipedal, many extinct groups included quadrupedal species...</h3>
-        <h4>They are like big birds but scarier</h4>
+      <h2>Skills & Languages</h2>
+      <p><strong>Skills:</strong> Critical thinking, reliability, quick learning, social skills, marketing analytics</p>
+      <p><strong>Languages:</strong> English (Native), Czech (Fluent), Slovak (Proficient), Russian (A2), Ukrainian (A2), Polish (A2)</p>
     </div>
 
-    
+    <!-- IMAGE -->
+    <img 
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Brigham_Young_University_campus.jpg/1280px-Brigham_Young_University_campus.jpg"
+      alt="BYU Campus"
+      class="dino-img"
+    />
+
+    <!-- YOUTUBE VIDEO -->
+    <h2 id="video">Motivational Video</h2>
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/-jCQerxzF48"
+        title="Motivation Video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- TABLEAU -->
+    <h2 id="tableau">Interactive Tableau Visualization</h2>
+    <div class="tableau-container">
+      <iframe
+        src="https://public.tableau.com/views/RegionalSampleWorkbook/Stocks"
+        frameborder="0"
+      ></iframe>
+    </div>
+
+    <!-- FOOTER -->
     <div class="footer">
-        <h5>Read more about dinosaurs</h5>
+      <h5>Scratch Page • Built by Lincoln Torrey</h5>
     </div>
 
-    <h3>Movies about Dinos</h3>
-    <ol class="left">
-        <li>Dino Dan</li>
-        <li>Jp 1</li>
-        <li>Jp 2</li>
-    </ol>
-
-    <img src="https://www.harrisburgu.edu/wp-content/uploads/Sierraceratops-turneri-reconstruction-by-Sergey-Krasovskiy-1600x686.jpg"
-         alt="Scary dinosaur" class="dino-img">
-
-</div>
+  </div>
 
 </body>
 </html>
